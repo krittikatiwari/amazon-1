@@ -1,0 +1,107 @@
+
+  
+
+
+body{
+    
+    background-image: url(https://raw.githubusercontent.com/Kalvium-Program/amazon-clone-boilerplate/dcd76e3300f0c844c863e8cf3728aec6cabc8952/assets/background%20picture.png);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:auto;
+}
+.box1{
+  width: 360px;
+  height: 475px;
+padding: 10px;
+border: 5px solid gray;
+margin: 0;
+background-color: azure;
+display: grid;
+grid-template-columns: auto auto ;
+border: 0ch;
+margin-left: 1%;
+
+
+  
+
+}
+.box2{
+  width: 360px;
+  height: 475px;
+padding: 10px;
+border: 5px solid gray;
+margin: 0;
+background-color: azure;
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 2%;
+
+margin-left: 1%;
+
+}
+.box3{
+  width: 360px;
+  height: 475 px;
+padding: 10px;
+border: 5px solid gray;
+margin: 0;
+background-color: aqua;
+display: grid;
+grid-template-columns: auto;
+margin-left: 1%;
+
+}
+.box4{
+width: 360px;
+height: 475px;
+padding: 10px;
+border: 5px solid gray;
+margin: 0;
+background-color: beige;
+display: grid;
+grid-template-columns: auto;
+margin-left: 1%;
+
+}
+.image1{
+  grid-column: 1/2;
+}
+.image5{
+  grid-column: 1/2;
+}
+.image10{
+  width: 250px;
+  height: 70px;
+padding: 40px;
+border: 5px solid rgb(215, 143, 154);
+margin-bottom: 5%;
+margin-left: 1.2%;
+
+background-color: rgb(215, 143, 154);
+
+}
+.pict{
+  display: flex;  
+  position: absolute; 
+  margin-top: 50%;
+}
+@media  all and (max-width: 600px){
+  .pict{
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  }
+
+
